@@ -15,7 +15,7 @@ function AppHeader({handleSearch, search, toggleSearch}) {
       <div className="g-row g-cont">
         <div className="g-col">
           <h1 className="header__title">
-            <Link to="/">SoundCloud • React Redux</Link>
+            <Link to="/">Retrobox</Link>
           </h1>
           <ul className="header__actions">
             <li>
@@ -24,17 +24,6 @@ function AppHeader({handleSearch, search, toggleSearch}) {
                 label="Search"
                 onClick={toggleSearch}
               />
-            </li>
-            <li>
-              <IconButton
-                icon="soundcloud"
-                label="SoundCloud"
-              />
-            </li>
-            <li>
-              <a className="link link--github" href="https://github.com/r-park/soundcloud-redux">
-                <Icon name="github" />
-              </a>
             </li>
           </ul>
         </div>
